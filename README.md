@@ -16,6 +16,7 @@ docker run --name docker-registry \
 ```
 
 Then run the proxy:
+
 ```
 #!/bin/bash
 docker run -p 443:443 \
